@@ -1,88 +1,146 @@
-body {
-    background-color: #F5F5F5;
-    color: #757575;
+:root {
+   --color-accent-two: #FFFFFF;
+   --color-logo: #000000;
+   --color-accent: #2196F3;
+   --color-titel-nav: #212121;
+   --color-main: #757575;
+   --color-contactsfooter: rgba(255, 255, 255, 0.6);
+   --background-color-main: #F5F5F5;
+   --background-color-headerfooter: #2F303A;
+   --background-color-sectionteam: #F5F4FA;
 }
 
-/* цвет лейбла #FFFFFF */
-/* вторичный цвет #000000 */
-/* акцент #2196F3 */
-/* цвет h1,2,3 + навигация #212121*/
-/* цвет основного текста #757575 */
-/* вторичный цвет текста контакты rgba(255, 255, 255, 0.6) */
-/* основной цвет фона #F5F5F5 */
+body {
+    color: var(--color-main);
+    background-color: var(--background-color-main);
+  
+}
 
+/* nav */
+.logo {
+    color: var(--color-logo);
+}
+
+.logo-web-blue {
+    color: var(--color-accent);
+}
 
 /* marker list */
 .list {
     list-style: none;
 }
 
-/* nav */
-.logo {
-    color: #000000;
-}
-.logo-web-blue {
-    color: #2196F3;
-}
-
 .link,
 .link,
 .link{
-    color: 
-    #212121;
+    color: var(--color-titel-nav);
 }
 
 .link:hover,
 .link:focus,
 .link:active {
-    color: #2196F3;
+    color: var(--color-accent);
+}
+
+.contacts-header a {
+    color: var(--color-main);
 }
 
 .contacts-header-mail:hover,
 .contacts-header-mail:focus {
-    color: #2196F3;
+    color: var(--color-accent);
 }
 
 .contacts-header-tel:hover,
 .contacts-header-tel:focus {
-    color: #2196F3;
+    color: var(--color-accent);
 }
 
 /* <!-- перша секція --> */
 
+.section-main{
+    background-color:var(--background-color-headerfooter);
+}
+
+.section-main h1 {
+    color: var(--color-accent-two);
+}
+
+/* <!-- друга секція --> */
+.section-titel {
+    color: var(--color-titel-nav);
+}
+
+.section-features h3 {
+    color: var(--color-titel-nav);
+}
+
+/* <!-- четверта секція --> */
+
+
+.section-team h3 {
+    color: var(--color-titel-nav)
+    ;
+}
+
+/* <!-- портфоліо --> */
+.list button {
+    color: var(--color-titel-nav);
+}
+.section-team {
+    background-color: var(--background-color-sectionteam);
+}
 
 
 
 
 
+/* <!-- футер --> */
+.footer {
+    background-color: var(--background-color-headerfooter);
+}
 
+.footer-logo {
+    color: var(--color-accent-two);
+}
 
+.contacts-footer-street {
+    color: var(--color-accent-two);
+}
 
+.contacts-footer-mail,
+.contacts-footer-tel {
+    color: var(--color-contactsfooter);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* контакти hover focus contakts footer and header*/
-
-
-
-.contact-address:hover,
-.contact-address:focus {
+.contacts-footer-street:hover,
+.contacts-footer-mail:hover,
+.contacts-footer-tel:hover { 
     color: #2196F3;
 }
+
+.contacts-footer-street:focus,
+.contacts-footer-mail:focus,
+.contacts-footer-tel:focus { 
+    color: #2196F3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
