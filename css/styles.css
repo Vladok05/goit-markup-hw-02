@@ -1,0 +1,88 @@
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+}
+
+/* цвет лейбла #FFFFFF */
+/* вторичный цвет #000000 */
+/* акцент #2196F3 */
+/* цвет h1,2,3 + навигация #212121*/
+/* цвет основного текста #757575 */
+/* вторичный цвет текста контакты rgba(255, 255, 255, 0.6) */
+/* основной цвет фона #F5F5F5 */
+
+
+/* marker list */
+.list {
+    list-style: none;
+}
+
+/* nav */
+.logo {
+    color: #000000;
+}
+.logo-web-blue {
+    color: #2196F3;
+}
+
+.link,
+.link,
+.link{
+    color: 
+    #212121;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+    color: #2196F3;
+}
+
+.contacts-header-mail:hover,
+.contacts-header-mail:focus {
+    color: #2196F3;
+}
+
+.contacts-header-tel:hover,
+.contacts-header-tel:focus {
+    color: #2196F3;
+}
+
+/* <!-- перша секція --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* контакти hover focus contakts footer and header*/
+
+
+
+.contact-address:hover,
+.contact-address:focus {
+    color: #2196F3;
+}
+
