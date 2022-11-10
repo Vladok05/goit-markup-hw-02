@@ -235,12 +235,11 @@ body {
     line-height: 1.7;
 }
 
-.contacts-footer-street {
+.address-footer .contacts-footer-street {
     color: var(--color-accent-two);
 }
 
-.contacts-footer-mail,
-.contacts-footer-tel {
+.address-footer a {
     color: var(--color-contactsfooter);
 }
 
