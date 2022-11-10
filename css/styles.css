@@ -12,13 +12,20 @@
 
 body {
     color: var(--color-main);
-    background-color: var(--color-accent-two)
+    background-color: var(--color-accent-two);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* nav */
 
 .logo {
     color: var(--color-logo);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
 }
 
 .logo-web-blue {
@@ -30,10 +37,12 @@ body {
     list-style: none;
 }
 
-.link,
-.link,
-.link{
+.site-nav .link{
     color: var(--color-titel-nav);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -48,6 +57,10 @@ body {
 
 .contacts-header a {
     color: var(--color-main);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts-header-mail:hover,
@@ -68,63 +81,127 @@ body {
 
 .section-main{
     background-color:var(--background-color-headerfooter);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .section-main h1 {
     color: var(--color-accent-two);
 }
 
-.primary {
+.button-primary {
     background-color: var(--color-accent);
-    color: var(--color-accent-two)
+    color: var(--color-accent-two);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
-.primary:hover{
+.button-primary:hover{
     color: var(--color-titel-nav);
 }
 
-.primary:focus{
+.button-primary:focus{
     color: var(--color-titel-nav);
 }
 
 /* <!-- друга секція --> */
-
-
 .section-titel {
     color: var(--color-titel-nav);
 }
 
+.section-titel{
+    color: var(--color-titel-nav);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+}
+
 .section-features h3 {
     color: var(--color-titel-nav);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section-features p {
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 /* <!-- четверта секція --> */
-
 .section-team {
     background-color: var(--background-color-sectionteam);
 }
+
 .section-team h3 {
-    color: var(--color-titel-nav)
-    ;
+    color: var(--color-titel-nav);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.84;
+    text-align: center;
+}
+
+.section-team p {
+    font-size: 16px;
+    line-height: 0.84;
+    text-align: center;
 }
 
 /* <!-- портфоліо --> */
+.list .button-secondary.filter {
+    background-color: var(--color-accent);
+    color: var(--color-accent-two);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.button-secondary {
+    background-color: var(--background-color-sectionteam);
+    color: var(--color-titel-nav);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.button-secondary:hover{
+    color: var(--color-accent);
+}
+
+.button-secondary:focus{
+    color: var(--color-accent);
+}
 
 .list h2 {
     color: var(--color-titel-nav);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
-.secondary {
-    background-color: var(--background-color-sectionteam);
-    color: var(--color-titel-nav);
-}
-
-.secondary:hover{
-    color: var(--color-accent);
-}
-
-.secondary:focus{
-    color: var(--color-accent);
+.list p {
+    font-size: 16px;
+    line-height: 1.9;
 }
 
 /* <!-- футер --> */
@@ -134,6 +211,15 @@ body {
 
 .footer-logo {
     color: var(--color-accent-two);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.contacts-footer {
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .contacts-footer-street {
