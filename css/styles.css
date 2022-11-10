@@ -12,12 +12,11 @@
 
 body {
     color: var(--color-main);
+    color: var(--color-accent-two)
 }
 
 /* nav */
-.background-header {
-    color: var(--color-accent-two);
-}
+
 .logo {
     color: var(--color-logo);
 }
@@ -36,6 +35,7 @@ body {
 .link{
     color: var(--color-titel-nav);
 }
+
 .site-nav .link.current {
     color: var(--color-accent);
 }
@@ -60,10 +60,11 @@ body {
     color: var(--color-accent);
 }
 
-/* <!-- перша секція --> */
-.background-main {
+.main {
     background-color: var(--background-color-main);
 }
+
+/* <!-- перша секція --> */
 
 .section-main{
     background-color:var(--background-color-headerfooter);
@@ -76,6 +77,14 @@ body {
 .primary {
     background-color: var(--color-accent);
     color: var(--color-accent-two)
+}
+
+.primary:hover{
+    color: var(--color-titel-nav);
+}
+
+.primary:focus{
+    color: var(--color-titel-nav);
 }
 
 /* <!-- друга секція --> */
@@ -100,16 +109,23 @@ body {
 }
 
 /* <!-- портфоліо --> */
-.list button {
-    color: var(--color-titel-nav);
-}
+
 .list h2 {
     color: var(--color-titel-nav);
 }
 
+.secondary {
+    background-color: var(--background-color-sectionteam);
+    color: var(--color-titel-nav);
+}
 
+.secondary:hover{
+    color: var(--color-accent);
+}
 
-
+.secondary:focus{
+    color: var(--color-accent);
+}
 
 /* <!-- футер --> */
 .footer {
