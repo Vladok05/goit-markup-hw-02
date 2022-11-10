@@ -116,10 +116,6 @@ body {
 }
 
 /* <!-- друга секція --> */
-.section-titel {
-    color: var(--color-titel-nav);
-}
-
 .section-titel{
     color: var(--color-titel-nav);
     font-weight: 700;
