@@ -12,7 +12,7 @@
 
 body {
     color: var(--color-main);
-    color: var(--color-accent-two)
+    background-color: var(--color-accent-two)
 }
 
 /* nav */
@@ -60,7 +60,7 @@ body {
     color: var(--color-accent);
 }
 
-.main {
+.background-main {
     background-color: var(--background-color-main);
 }
 
