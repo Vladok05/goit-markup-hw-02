@@ -76,7 +76,7 @@ body {
     color: var(--color-accent);
 }
 
-.background-main {
+.background-main .section-main.section{
     background-color: var(--background-color-main);
 }
 
