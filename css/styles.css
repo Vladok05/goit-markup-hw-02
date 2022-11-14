@@ -5,8 +5,9 @@
 --color-titel-nav: #212121;
 --color-main: #757575;
 --color-contactsfooter: rgba(255, 255, 255, 0.6);
---background-color-headerfooter: #2F303A;
+--background-color-hero: #2F303A;
 --background-color-sectionteam: #F5F4FA;
+--button-active: #188CE8;
 }
 
 body {
@@ -20,6 +21,10 @@ body {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* nav */
 
 .logo {
@@ -29,6 +34,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     
 }
 
@@ -36,7 +42,7 @@ body {
     color: var(--color-accent);
 }
 
-.site-nav {
+.link-site-nav {
     color: var(--color-titel-nav);
     text-decoration: none;
     font-weight: 500;
@@ -45,13 +51,18 @@ body {
     letter-spacing: 0.02em;
 }
 
-.link:hover,
-.link:focus,
-.link:active {
+.link.current {
+    color: var(--color-accent);
+}
+
+.link-site-nav:hover,
+.link-site-nav:focus,
+.link-site-nav:active {
     color: var(--color-accent);
 }
 
 .contacts-header {
+    color: var(--color-main);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -59,20 +70,17 @@ body {
     letter-spacing: 0.02em;
 }
 
-.contacts-header-mail:hover,
-.contacts-header-mail:focus {
+.contacts-header:hover,
+.contacts-header:focus {
     color: var(--color-accent);
 }
 
-.contacts-header-tel:hover,
-.contacts-header-tel:focus {
-    color: var(--color-accent);
-}
 
 /* <!-- перша секція --> */
 
-.section-main h1 {
+.section-hero {
     color: var(--color-accent-two);
+    background-color: var(--background-color-hero);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -81,7 +89,11 @@ body {
     text-transform: uppercase;
 }
 
-.button-primary {
+.button {
+    text-decoration: none;
+}
+
+.button-hero {
     background-color: var(--color-accent);
     color: var(--color-accent-two);
     cursor: pointer;
@@ -95,14 +107,14 @@ body {
     letter-spacing: 0.06em;
 }
 
-.button-primary:hover{
-    color: var(--color-titel-nav);
-    background-color: var(--background-color-sectionteam);
+.button-hero:hover {
+    color: var(--color-accent-two);
+    background-color: var(--button-active);
 }
 
-.button-primary:focus{
-    color: var(--color-titel-nav);
-    background-color: var(--background-color-sectionteam);
+.button-hero:focus{
+    color: var(--color-accent-two);
+    background-color: var(--button-active);
 }
 
 /* <!-- друга секція --> */
@@ -112,19 +124,31 @@ body {
     font-size: 36px;
     line-height: 1.66;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.section-features h3 {
+.section-titel-hidden {
+    color: var(--color-titel-nav);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.title-section-features {
     color: var(--color-titel-nav);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.section-features p {
+.p-section-features {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 /* <!-- четверта секція --> */
@@ -132,33 +156,30 @@ body {
     background-color: var(--background-color-sectionteam);
 }
 
-.section-team h3 {
+.section-team-h-and-p {
+    background-color: #FFFFFF;
+}
+
+.title-section-team {
     color: var(--color-titel-nav);
     font-weight: 500;
     font-size: 16px;
     line-height: 0.84;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.section-team p {
+.p-section-team {
     font-size: 16px;
     line-height: 0.84;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* <!-- портфоліо --> */
-.list .button-secondary.filter {
-    background-color: var(--color-accent);
-    color: var(--color-accent-two);
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-}
 
-.button-secondary {
+
+.button-primary-filter {
     background-color: var(--background-color-sectionteam);
     color: var(--color-titel-nav);
     cursor: pointer;
@@ -167,9 +188,23 @@ body {
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.button-secondary:hover{
+.button-primary-filter-all {
+        background-color: var(--color-accent);
+        color: var(--color-accent-two);
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
+        }
+
+
+.button-primary-filter:hover{
     color: var(--color-accent-two);
     background-color: var(--color-accent);
 }
@@ -179,8 +214,11 @@ body {
     background-color: var(--color-accent);
 }
 
+.link-portfolio {
+    text-decoration: none;
+}
 
-.list h2 {
+.list-sample-work-titel {
     color: var(--color-titel-nav);
     font-weight: 700;
     font-size: 18px;
@@ -188,15 +226,19 @@ body {
     letter-spacing: 0.06em;
 }
 
-.list p {
+.list-sample-work-paragraph {
+    color: var(--color-main);
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 
-/* <!-- футер --> */
+/* фотер */
+
 .footer {
-    background-color: var(--background-color-headerfooter);
+    background-color: var(--background-color-hero);
 }
+
 
 .footer-logo {
     color: var(--color-accent-two);
@@ -205,24 +247,26 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
-.address-footer a {
+.contacts-footer-street {
+    color: var(--color-accent-two);
     text-decoration: none;
     font-style: normal;
-}
-
-.contacts-footer {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
-.address-footer .contacts-footer-street {
-    color: var(--color-accent-two);
-}
-
-.address-footer a {
+.contacts-footer-mail,
+.contacts-footer-tel {
     color: var(--color-contactsfooter);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .contacts-footer-street:hover,
