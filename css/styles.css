@@ -5,7 +5,6 @@
 --color-titel-nav: #212121;
 --color-main: #757575;
 --color-contactsfooter: rgba(255, 255, 255, 0.6);
---background-color-main: #F5F5F5;
 --background-color-headerfooter: #2F303A;
 --background-color-sectionteam: #F5F4FA;
 }
@@ -14,7 +13,11 @@ body {
     color: var(--color-main);
     background-color: var(--color-accent-two);
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
+}
+/* marker list */
+
+.list {
+    list-style: none;
 }
 
 /* nav */
@@ -33,12 +36,7 @@ body {
     color: var(--color-accent);
 }
 
-/* marker list */
-.list {
-    list-style: none;
-}
-
-.site-nav .link{
+.site-nav {
     color: var(--color-titel-nav);
     text-decoration: none;
     font-weight: 500;
@@ -47,18 +45,13 @@ body {
     letter-spacing: 0.02em;
 }
 
-.site-nav .link.current {
-    color: var(--color-accent);
-}
-
 .link:hover,
 .link:focus,
 .link:active {
     color: var(--color-accent);
 }
 
-.contacts-header a {
-    color: var(--color-main);
+.contacts-header {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -76,15 +69,7 @@ body {
     color: var(--color-accent);
 }
 
-.background-main .section-main.section{
-    background-color: var(--background-color-main);
-}
-
 /* <!-- перша секція --> */
-
-.section-main{
-    background-color:var(--background-color-headerfooter);
-}
 
 .section-main h1 {
     color: var(--color-accent-two);
@@ -193,10 +178,7 @@ body {
     color: var(--color-accent-two);
     background-color: var(--color-accent);
 }
-.list a {
-    color: var(--color-main);
-    text-decoration: none;
-}
+
 
 .list h2 {
     color: var(--color-titel-nav);
@@ -246,13 +228,13 @@ body {
 .contacts-footer-street:hover,
 .contacts-footer-mail:hover,
 .contacts-footer-tel:hover { 
-    color: #2196F3;
+    color: var(--color-accent);
 }
 
 .contacts-footer-street:focus,
 .contacts-footer-mail:focus,
 .contacts-footer-tel:focus { 
-    color: #2196F3;
+    color: var(--color-accent);
 }
 
 
