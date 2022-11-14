@@ -1,13 +1,13 @@
 :root {
-   --color-accent-two: #FFFFFF;
-   --color-logo: #000000;
-   --color-accent: #2196F3;
-   --color-titel-nav: #212121;
-   --color-main: #757575;
-   --color-contactsfooter: rgba(255, 255, 255, 0.6);
-   --background-color-main: #F5F5F5;
-   --background-color-headerfooter: #2F303A;
-   --background-color-sectionteam: #F5F4FA;
+--color-accent-two: #FFFFFF;
+--color-logo: #000000;
+--color-accent: #2196F3;
+--color-titel-nav: #212121;
+--color-main: #757575;
+--color-contactsfooter: rgba(255, 255, 255, 0.6);
+--background-color-main: #F5F5F5;
+--background-color-headerfooter: #2F303A;
+--background-color-sectionteam: #F5F4FA;
 }
 
 body {
