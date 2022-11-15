@@ -44,7 +44,6 @@ body {
 
 .link-site-nav {
     color: var(--color-titel-nav);
-    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -75,7 +74,6 @@ body {
     color: var(--color-accent);
 }
 
-
 /* <!-- перша секція --> */
 
 .section-hero-titel {
@@ -92,10 +90,6 @@ body {
     background-color: var(--background-color-hero);
 }
 
-.button {
-    text-decoration: none;
-}
-
 .button-hero {
     background-color: var(--color-accent);
     color: var(--color-accent-two);
@@ -110,12 +104,8 @@ body {
     letter-spacing: 0.06em;
 }
 
-.button-hero:hover {
-    color: var(--color-accent-two);
-    background-color: var(--button-active);
-}
-
-.button-hero:focus{
+.button-hero:hover,
+.button-hero:focus {
     color: var(--color-accent-two);
     background-color: var(--button-active);
 }
@@ -167,22 +157,21 @@ body {
     color: var(--color-titel-nav);
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.p-section-team {
+.paragraph-section-team {
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 /* <!-- портфоліо --> */
 
-
-.button-primary-filter {
+.button-filter {
     background-color: var(--background-color-sectionteam);
     color: var(--color-titel-nav);
     cursor: pointer;
@@ -194,31 +183,10 @@ body {
     letter-spacing: 0.03em;
 }
 
-.button-primary-filter-all {
-        background-color: var(--color-accent);
-        color: var(--color-accent-two);
-        cursor: pointer;
-        font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        text-align: center;
-        letter-spacing: 0.03em;
-        }
-
-
-.button-primary-filter:hover{
+.button-filter:hover,
+.button-Filter:focus {
     color: var(--color-accent-two);
     background-color: var(--color-accent);
-}
-
-.button-secondary:focus{
-    color: var(--color-accent-two);
-    background-color: var(--color-accent);
-}
-
-.link-portfolio {
-    text-decoration: none;
 }
 
 .list-sample-work-titel {
@@ -241,7 +209,6 @@ body {
 .footer {
     background-color: var(--background-color-hero);
 }
-
 
 .footer-logo {
     color: var(--color-accent-two);
