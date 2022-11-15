@@ -78,15 +78,18 @@ body {
 
 /* <!-- перша секція --> */
 
-.section-hero {
+.section-hero-titel {
     color: var(--color-accent-two);
-    background-color: var(--background-color-hero);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+.section-hero {
+    background-color: var(--background-color-hero);
 }
 
 .button {
