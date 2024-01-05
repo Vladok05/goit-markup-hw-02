@@ -11,13 +11,13 @@ ol {
   list-style-type: none;
 }
 
-a {
+/* a {
   text-decoration: none;
 }
 
 button {
   cursor: pointer;
-}
+} */
 
 /* Common styles */
 
@@ -118,7 +118,7 @@ button {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.hero-button:hover {
+.hero-button:hover .hero-button:focus {
   background-color: #404bbf;
 }
 
