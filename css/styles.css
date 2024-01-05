@@ -6,10 +6,10 @@ body {
 }
 
 /* Reset styles */
-ul,
+/* ul,
 ol {
   list-style-type: none;
-}
+} */
 
 /* a {
   text-decoration: none;
@@ -110,6 +110,7 @@ button {
 
 .hero-button {
   color: #fff;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: calc(24 / 16);
@@ -129,21 +130,17 @@ button {
 .team {
   background-color: #f4f4fd;
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 /* !footer */
 
 .footer {
   background-color: #2e2f42;
 }
 
-.footer-logo {
+.logo-accent-foooter {
   color: #f4f4fd;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: calc(21 / 18);
-  letter-spacing: calc(0.54em / 18);
-  text-transform: uppercase;
 }
 
 .footer-desc {
