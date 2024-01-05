@@ -1,7 +1,7 @@
 /* Base styles */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -12,14 +12,10 @@ ol {
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
 button {
-  font-family: inherit;
-  color: currentColor;
-  background-color: transparent;
   cursor: pointer;
 }
 
@@ -27,6 +23,7 @@ button {
 
 .team-titel,
 .portfolio-titel {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -38,6 +35,7 @@ button {
 .advantage-titel-caption,
 .team-titel-caption,
 .portfolio-titel-caption {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: calc(24 / 20);
@@ -47,7 +45,6 @@ button {
 .advantages-desc,
 .team-desc,
 .portfolio-desc {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: calc(24 / 16);
@@ -57,20 +54,21 @@ button {
 /* !header */
 
 .header-nav-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   letter-spacing: calc(0.54em / 18);
   text-transform: uppercase;
 }
 
 .logo-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-nav-link {
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: calc(24 / 16);
@@ -78,9 +76,8 @@ button {
 }
 
 .header-address-link {
-  color: #434455;
+  color: currentColor;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: calc(24 / 16);
   letter-spacing: calc(0.32em / 16);
@@ -106,7 +103,7 @@ button {
   color: #fff;
   text-align: center;
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   letter-spacing: calc(1.12em / 56);
 }
 
@@ -121,7 +118,7 @@ button {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.hero-button:hover {
+.hero-button:focus {
   background-color: #404bbf;
 }
 
