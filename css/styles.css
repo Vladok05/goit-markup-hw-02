@@ -80,6 +80,7 @@ address {
 .header-address-link {
   color: #434455;
   font-size: 16px;
+  /* font-weight: 400; */
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -130,7 +131,7 @@ address {
   background-color: #f4f4fd;
 }
 .team-item {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 /* !footer */
 
