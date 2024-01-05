@@ -45,7 +45,6 @@ button {
 .team-desc,
 .portfolio-desc {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -148,7 +147,6 @@ address {
 .footer-desc {
   color: #f4f4fd;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
