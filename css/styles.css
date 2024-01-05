@@ -27,7 +27,7 @@ button {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: calc(0.72em / 36);
+  letter-spacing: 0, 02em;
   text-transform: capitalize;
 }
 
@@ -46,8 +46,8 @@ button {
 .portfolio-desc {
   font-size: 16px;
   font-weight: 400;
-  line-height: calc(24 / 16);
-  letter-spacing: calc(0.32em / 16);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* !header */
@@ -58,7 +58,7 @@ button {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: calc(0.54em / 18);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -70,8 +70,8 @@ button {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: calc(24 / 16);
-  letter-spacing: calc(0.32em / 16);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 address {
@@ -82,8 +82,8 @@ address {
   color: currentColor;
   font-size: 16px;
   font-weight: 400;
-  line-height: calc(24 / 16);
-  letter-spacing: calc(0.32em / 16);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-nav-link:focus,
@@ -107,7 +107,7 @@ address {
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: calc(1.12em / 56);
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -115,8 +115,8 @@ address {
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
-  line-height: calc(24 / 16);
-  letter-spacing: calc(0.64em / 16);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -149,6 +149,6 @@ address {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
-  line-height: calc(24 / 16);
-  letter-spacing: calc(0.32em / 16);
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
