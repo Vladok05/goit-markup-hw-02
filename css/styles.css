@@ -78,6 +78,7 @@ address {
 }
 
 .header-address-link {
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -115,7 +116,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   background-color: #4d5ae5;
 }
 
