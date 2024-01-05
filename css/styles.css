@@ -77,6 +77,7 @@ button {
 
 .header-address-link {
   color: currentColor;
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: calc(24 / 16);
