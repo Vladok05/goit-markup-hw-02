@@ -53,7 +53,7 @@ button {
 
 /* !header */
 
-.header-nav-logo {
+.main-logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -63,7 +63,7 @@ button {
   text-transform: uppercase;
 }
 
-.logo-accent {
+.header-logo-accent {
   color: #2e2f42;
 }
 
@@ -142,7 +142,7 @@ address {
   background-color: #2e2f42;
 }
 
-.logo-accent-foooter {
+.footer-logo-accent {
   color: #f4f4fd;
 }
 
