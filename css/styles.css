@@ -27,7 +27,7 @@ button {
   text-align: center;
   font-size: 36px;
   font-style: normal;
-  line-height: calc(40 / 36);
+  line-height: 1.11;
   letter-spacing: calc(0.72em / 36);
   text-transform: capitalize;
 }
@@ -38,8 +38,8 @@ button {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: calc(24 / 20);
-  letter-spacing: calc(0.4em / 20);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .advantages-desc,
@@ -75,9 +75,12 @@ button {
   letter-spacing: calc(0.32em / 16);
 }
 
+address {
+  font-style: normal;
+}
+
 .header-address-link {
   color: currentColor;
-  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: calc(24 / 16);
